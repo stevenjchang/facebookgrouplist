@@ -16,6 +16,7 @@
 		/* line-height:0.3em; */
 		font-size: 10px;
 		@include add-border(1px, #cccccc, bottom); 
+		padding-top: 10px;
 	}
 
 	a{
@@ -39,6 +40,18 @@
 		margin-top:9px;
 		margin-right:5px;
 	}
+}
+@media screen and (min-width: 980px) {
+	#jumbotron-categories { padding: 30px 175px }
+}
+
+@media screen and (min-width:415px) and (max-width:768px) {
+	#jumbotron-categories { padding: 0 50px}
+}
+
+@media screen and (max-width:414px){
+	.ol-w-line { width: 93% }
+	#jumbotron-categories{ padding: 10px}
 }
 
 .fa-2{
